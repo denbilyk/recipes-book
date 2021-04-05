@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {FormArray, FormControl, FormGroup, Validators} from '@angular/forms';
 import {RecipeService} from '../recipe.service';
-import {Recipe} from '../recipe.model';
 
 @Component({
   selector: 'app-recipe-edit',
